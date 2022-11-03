@@ -63,9 +63,23 @@ ul {
   color: #837d88;
 }
 
+.site-nav__link:active{
+    color: #2C2830;
+}
+
 .site-header__btn {
   padding: 12.5px 28.5px;
   background-color: #fff;
   border: 1.5px solid #2c2830;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  color: #2c2830;
+}
+
+.site-header__btn:active{
+    background-color: #2C2830;
+    color: #fff;
 }
 /****************** Header styles end ******************/
