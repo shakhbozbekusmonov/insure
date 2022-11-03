@@ -96,6 +96,13 @@ ul {
   background-repeat: no-repeat;
   /* background-position: x y; */
   background-position: calc(50% + 675px) calc(50% - 110px);
+  position: relative;
+}
+
+.section-back__img{
+    position: absolute;
+    top: 494px;
+    right: calc(50% + 567px);
 }
 
 .hero-section__wrapper {
@@ -161,6 +168,82 @@ ul {
     position: absolute;
     right: 0;
 }
-
 /* Hero section end */
+
+/* Different section start */
+.different-section__wrapper{
+    padding-top: 305px;
+    padding-bottom: 158px;
+}
+
+.different-section__title{
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2C2830;    
+    margin-top: 0;
+    margin-bottom: 96px;
+}
+
+.different-section__title::before{
+    display: block;
+    width: 150px;
+    height: 1px;
+    background-color: #C396C6;
+    content: "";
+    margin-bottom: 63px;
+}
+
+.different-section__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.different-section__item{
+    width: 350px;
+}
+
+.different-section__item::before{
+    display: block;
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    background-color: #96A9C6;
+    background-image: url("../images/snappy.svg");
+    background-repeat: no-repeat;
+    background-position: 32px 27px;
+    margin-bottom: 32px;
+    content: "";
+}
+
+.different-section__item:nth-child(2)::before{
+    background-image: url("../images/affordable.svg");
+    background-position: 27px;
+}
+
+.different-section__item:nth-child(3)::before{
+    background-image: url("../images/user.svg");
+    background-position: 31px 27px;
+}
+
+.defferent-item__title{
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.388889px;
+    color: #2C2830;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.different-item__desc{
+    font-size: 16px;
+    line-height: 26px;
+    color: #837D88;
+    margin-top: 0;
+}
+/* Different section end */
 /****************** Main styles end ******************/
