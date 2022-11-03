@@ -1,9 +1,71 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Karla", "Arial", sans-serif;
-    font-weight: 400;
+body {
+  font-family: "Karla", "Arial", sans-serif;
+  font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+/****************** Header styles start ******************/
+.site-header {
+  background-color: #fff;
+  padding-top: 21px;
+  padding-bottom: 19px;
+}
+
+.container {
+  width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.site-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header__img {
+  width: 111px;
+  height: 18px;
+}
+
+.site-header__end {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav__list {
+  display: flex;
+  justify-content: space-between;
+  width: 268px;
+  margin-right: 33px;
+}
+
+.site-nav__link {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #837d88;
+}
+
+.site-header__btn {
+  padding: 12.5px 28.5px;
+  background-color: #fff;
+  border: 1.5px solid #2c2830;
+}
+/****************** Header styles end ******************/
