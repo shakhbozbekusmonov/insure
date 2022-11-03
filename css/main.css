@@ -63,8 +63,8 @@ ul {
   color: #837d88;
 }
 
-.site-nav__link:active{
-    color: #2C2830;
+.site-nav__link:active {
+  color: #2c2830;
 }
 
 .site-header__btn {
@@ -78,8 +78,89 @@ ul {
   color: #2c2830;
 }
 
-.site-header__btn:active{
-    background-color: #2C2830;
-    color: #fff;
+.site-header__btn:active {
+  background-color: #2c2830;
+  color: #fff;
 }
 /****************** Header styles end ******************/
+
+/****************** Main styles start ******************/
+.site-main {
+  background-color: #fff;
+}
+
+/* Hero section start */
+.hero-section {
+  background-color: #2d2641;
+  background-image: url("../images/hero-back.png");
+  background-repeat: no-repeat;
+  /* background-position: x y; */
+  background-position: calc(50% + 675px) calc(50% - 110px);
+}
+
+.hero-section__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 105px;
+  padding-bottom: 127px;
+  position: relative;
+}
+
+.hero-section__start {
+  width: 540px;
+}
+
+.hero-section__title {
+    width: 520px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.hero-section__title::before{
+    display: block;
+    width: 150px;
+    height: 1px;
+    background-color: #fff;
+    content: "";
+    margin-bottom: 63px;
+}
+
+.hero-section__desc{
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.hero-section__btn{
+    display: inline-block;
+    padding: 12.5px 28.5px;
+    border: 1.5px solid #fff;
+
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+}
+
+.hero-section__btn:active{
+    background-color: #fff;
+    color: #2C2830;
+}
+
+.hero-section__img{
+    width: 540px;
+    height: 650px;
+    position: absolute;
+    right: 0;
+}
+
+/* Hero section end */
+/****************** Main styles end ******************/
